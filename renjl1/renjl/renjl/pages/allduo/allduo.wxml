@@ -1,0 +1,18 @@
+<view class="liebiao">门店列表</view>
+
+<view class="zongbu" wx:for="{{cardList}}">
+  <view class="Tzb">{{item.goods_name}}</view>
+  <view class="dizhi">地址：{{item.goods_remark}}</view>
+  <view class="tel">电话：{{item.f_1}}</view>
+  <view class="bottom_age">
+      <view class="yuding" bindtap="callmeTap" data-intro="{{item.f_1}}"> 
+          <image src="https://we-fs.com/attachment/images/13/2017/07/MzLaZ7ehMTemMhtTlT0M2E9NUZU2T6.jpg" style="width:100%; height:77rpx;"></image>
+      </view>
+      <view class="daohang"  bindtap="navigation" data-lat="{{item.lat}}" data-lon="{{item.lon}}" data-name="{{item.goods_name}}">
+           <image src="../../images/b.jpg" style="width:100%; height:77rpx;"></image>
+      </view>
+      <view class="xiangqing" bindtap="liatofall"  data-id="{{item.goods_id}}">
+           <image src="../../images/c.jpg" style="width:100%; height:77rpx;"></image>
+      </view>
+  </view>
+</view>

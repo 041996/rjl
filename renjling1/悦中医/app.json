@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/list/list",
+    "pages/meishi/meishi",
+    "pages/alls/alls",
+    "pages/about/about",
+    "pages/allduo/allduo",
+    "pages/imgsall/imgsall"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "悦中医",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#83BE7B",
+    "color": "#494949",
+    "backgroundColor": "#EAEAEA",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "商城",
+      "iconPath": "images/sc.png",
+      "selectedIconPath": "images/ssc.png"
+    },{
+      "pagePath": "pages/list/list",
+      "text": "关于我们",
+      "iconPath": "images/gu.png",
+      "selectedIconPath": "images/ggy.png"
+    },{
+      "pagePath": "pages/allduo/allduo",
+      "text": "联系我们",
+      "iconPath": "images/lx.png",
+      "selectedIconPath": "images/llx.png"
+    }]
+  }
+}

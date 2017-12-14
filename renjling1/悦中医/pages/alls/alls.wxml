@@ -1,0 +1,14 @@
+<!--pages/alls/alls.wxml-->
+<view style="text-align:center;">
+    <image style="width:100%;" src="http://xcxu.we-fs.com{{allimg.original_img}}"></image>
+</view>
+<view style="line-height:50rpx;width:94%; margin-left:3%; font-size:30rpx; font-family:微软雅黑;">{{allimg.goods_name}}</view>
+<view style="line-height:50rpx;width:94%; margin-left:3%; font-size:30rpx; font-family:微软雅黑; color:#974A38; padding-bottom:30rpx;">￥{{allimg.shop_price}}元</view>
+
+<view style="width:100%; height:20rpx; background:#F0F0F0;"></view>
+<view class="jieshao">── ── 基本信息 ── ──</view>
+
+<import src="../../wxParse/wxParse.wxml"/> 
+<view style="margin:0 auto;text-align:left; margin-bottom:20rpx; font-size:28rpx; font-family:微软雅黑; line-height:45rpx; width:94%; color:black; margin-left:3%; overflow:hidden;">
+    <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+</view>

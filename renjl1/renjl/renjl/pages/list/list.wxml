@@ -1,0 +1,7 @@
+<!--pages/list/list.wxml-->
+<import src="../../wxParse/wxParse.wxml"/> 
+<view style="margin:0 auto;text-align:left; margin-bottom:20rpx; font-size:28rpx; font-family:微软雅黑; line-height:45rpx; width:94%; color:black; margin-left:5%; overflow:hidden;">
+    <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+   语伴是指一起学习语言的伙伴。语伴通过互相之间的信息
+   交流，形成一种语境。美国联邦语言实验室经过试验发现:没有语境，语言就失去了存在的根基。而语伴正是营造语境的关键元素。      
+</view>

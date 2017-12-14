@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/book/book",
+    "pages/technician/technician",
+    "pages/technicain_detail/technicain_detail",
+    "pages/edit_addr/edit_addr",
+    "pages/user/user"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#37383c",
+    "navigationBarTitleText": "无忧语伴",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#6e6d6b",
+    "selectedColor": "#f9f027",
+    "borderStyle": "white",
+    "backgroundColor": "#292929",
+   "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"images/index_icon.png",
+      "selectedIconPath":"images/index_icon_HL.png"
+    },
+     {
+      "pagePath": "pages/technician/technician",
+      "text": "详情",
+      "iconPath":"images/user_icon.png",
+      "selectedIconPath":"images/user_icon_HL.png"
+    }
+    
+    ]
+}
+}

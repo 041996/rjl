@@ -1,0 +1,25 @@
+<!--pages/about/about.wxml-->
+<view class="all_img">
+    <image style="width:100%; height:100%;" src="http://xcxu.we-fs.com{{allimgcon.original_img}}"></image>
+</view>
+
+<view class="co_names">
+    <!--<view class="text_title">神州智慧星教育集团</view>-->
+
+    <view class="left_img_r" style="padding-top:30rpx;" bindtap="callme" data-name="{{allimgcon.goods_name}}">
+        <!--img-->
+        <image src="http://www.we-fs.com/attachment/images/13/2017/11/sMWl6wsmdSd61mZa1lYW6jyXsOjasO.png"></image>
+        <text>{{allimgcon.goods_name}}</text>
+    </view>
+
+     <view class="left_img_r">
+        <!--img-->
+        <image style="width:75rpx;" src="http://www.we-fs.com/attachment/images/13/2017/11/iXwXGA55xaGna5NRr9rVPoGWrG5wvR.png"></image>
+        <text>{{allimgcon.goods_remark}}</text>
+    </view>
+    <!--<view class="left_img_rs">
+       报名时间：常年招生，招满为止
+    </view>-->
+
+     <map longitude="{{allimgcon.lon}}" latitude="{{allimgcon.lat}}" scale="14" bindtap="navigation" data-lat="{{allimgcon.lat}}" data-lon="{{allimgcon.lon}}" data-name="悦中医" show-location style="width:100%; height:80%;" title="{{title}}" style="width: 90%; margin-left:5%; height:200px; margin-top:20rpx; padding-bottom:20rpx;"/>
+</view>

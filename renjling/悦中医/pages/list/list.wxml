@@ -1,0 +1,5 @@
+<!--pages/list/list.wxml-->
+<import src="../../wxParse/wxParse.wxml"/> 
+<view style="margin:0 auto;text-align:left; margin-bottom:20rpx; font-size:28rpx; font-family:微软雅黑; line-height:45rpx; width:94%; color:black; margin-left:3%; overflow:hidden;">
+    <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+</view>

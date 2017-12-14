@@ -1,0 +1,73 @@
+<view class="container">
+<view class="ar_coverpath">
+    <image src="http://www.we-fs.com/attachment/headimg_45.jpg?time=1488941792" mode="aspectFill"></image>
+</view>
+<view class="ar_cont">
+    <view class="ar_cont_h1">无忧语伴</view>
+    <text>多年从业经验,资深的口译经验
+    </text>
+    <view class="ar_cont_h2">
+    【无忧语伴】
+    </view>
+
+    <view class="ar_sevice_item" style="border-top:1px solid #ddd;">
+        <text class="ar_cont_subject"> Tom </text>
+        <text class="ar_cont_price">18</text>
+        <view class="section_book">
+            <text>预约</text>
+        </view>
+    </view>
+
+    <view class="ar_sevice_item">
+        <text class="ar_cont_subject">suuny</text>
+        <text class="ar_cont_price">19</text>
+        <view class="section_book">
+            <text>预约</text>
+        </view>
+    </view>
+
+    <view class="ar_sevice_item">
+        <text class="ar_cont_subject">tom</text>
+        <text class="ar_cont_price">19</text>
+        <view class="section_book">
+            <text>预约</text>
+        </view>
+    </view>
+    <view class="ar_sevice_item">
+        <text class="ar_cont_subject">www</text>
+        <text class="ar_cont_price">20</text>
+        <view class="section_book">
+            <text>预约</text>
+        </view>
+    </view>
+    <view class="ar_sevice_item">
+        <text class="ar_cont_subject">aaa</text>
+        <text class="ar_cont_price">21</text>
+        <view class="section_book">
+            <text>预约</text>
+        </view>
+    </view>
+    <view class="ar_sevice_item">
+        <text class="ar_cont_subject">fff</text>
+        <text class="ar_cont_price">20</text>
+        <view class="section_book">
+            <text>预约</text>
+        </view>
+    </view>
+    <view class="ar_sevice_item">
+        <text class="ar_cont_subject">ddd</text>
+        <text class="ar_cont_price">21</text>
+        <view class="section_book">
+            <text>预约</text>
+        </view>
+    </view>
+    <view class="ar_sevice_item">
+        <text class="ar_cont_subject">hhh</text>
+        <text class="ar_cont_price">24</text>
+        <view class="section_book">
+            <text>预约</text>
+        </view>
+    </view>
+</view>
+
+</view>

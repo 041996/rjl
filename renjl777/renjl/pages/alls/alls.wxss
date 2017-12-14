@@ -1,0 +1,10 @@
+/* pages/alls/alls.wxss */
+@import "../../wxParse/wxParse.wxss";
+.jieshao{
+  width:100%;
+  height:100rpx;
+  line-height:100rpx;
+  text-align:center;
+  font-size:30rpx;
+  font-family:微软雅黑;
+}

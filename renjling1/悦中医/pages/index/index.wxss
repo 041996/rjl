@@ -1,0 +1,96 @@
+/**index.wxss**/
+.jieshao{
+  width:100%;
+  height:100rpx;
+  line-height:100rpx;
+  text-align:center;
+  font-size:30rpx;
+  font-family:微软雅黑;
+}
+.allimg{
+  width:94%;
+  height:360rpx;
+  margin-left:3%;
+  text-align:center;
+  line-height:360rpx;
+  font-size:38rpx;
+  font-family:微软雅黑;
+  letter-spacing:5rpx;
+  color:#fff;
+  background:url("http://www.we-fs.com/attachment/images/13/2017/11/PvKv6CI536I4V9Qc6qOIk3GvQqiIOZ.jpg");
+  background-size:100% 100%;
+}
+
+.allimgs{
+  width:94%;
+  height:360rpx;
+  margin-left:3%;
+  text-align:center;
+  line-height:360rpx;
+  font-size:38rpx;
+  margin-top:40rpx;
+  font-family:微软雅黑;
+  letter-spacing:5rpx;
+  color:#fff;
+  background:url("http://www.we-fs.com/attachment/images/13/2017/11/m0KD3a38Nk645aZkKK1nX4KkKYdD36.jpg");
+  background-size:100% 100%;
+}
+.bottom_img{
+  width:100%;
+  height:100rpx;
+  background:#FCB737;
+  display:flex;
+  flex-direction:row;
+  font-family:微软雅黑;
+  color:#0E0A02;
+  letter-spacing:3rpx;
+}
+
+
+
+/*分类下商品*/
+.jieshao{
+  width:100%;
+  height:100rpx;
+  line-height:100rpx;
+  text-align:center;
+  font-size:30rpx;
+  font-family:微软雅黑;
+}
+.allnames{
+    width:94%;
+    margin-left:3%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.conimg{
+    width:48%;
+    margin-bottom:30rpx;
+    border:1rpx solid #53894D;
+}
+.aller{
+    position:relative;
+    width:94%;
+    margin-left:3%;
+    height:50rpx;
+    line-height:50rpx;
+    text-align:left;
+    overflow:hidden;
+    font-size:28rpx;
+    font-family:微软雅黑;
+}
+/*更多*/
+.learn_more{
+  width:100%;
+  height:120rpx;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family:微软雅黑;
+  font-size:32rpx;
+  color:#fff;
+  letter-spacing:5rpx;
+  text-align:center;
+}

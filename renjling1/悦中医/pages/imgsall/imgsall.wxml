@@ -1,0 +1,5 @@
+<!--pages/imgsall/imgsall.wxml-->
+<import src="../../wxParse/wxParse.wxml"/> 
+  <view class="confont" style="text-align:center;font-size:28rpx; line-height:50rpx; font-family:微软雅黑;">
+      <view style="width:94%; margin-left:3%; overflow:hidden;"><template is="wxParse" data="{{wxParseData:article.nodes}}"/></view>
+  </view>

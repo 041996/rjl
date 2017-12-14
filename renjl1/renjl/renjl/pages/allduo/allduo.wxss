@@ -1,0 +1,72 @@
+/**index.wxss**/
+page{
+  width:100%;
+  height:100%;
+  background:#EAEAEA;
+}
+.top_title{
+  width:100%;
+  height:100rpx;
+  /*background:pink;*/
+}
+.top_title image{
+  width:100%;
+  height:100%;
+}
+
+.liebiao{
+  width:94%;
+  margin-left:3%;
+  height:85rpx;
+  background:white;
+  margin-top:25rpx;
+  line-height:85rpx;
+  font-size:35rpx;
+  font-family:微软雅黑;
+  text-indent:30rpx;
+}
+
+
+
+
+.zongbu{
+  width:94%;
+  margin-left:3%;
+  background:white;
+  margin-top:30rpx;
+  font-family:微软雅黑;
+}
+.Tzb{
+  line-height:70rpx;
+  font-size:33rpx;
+  text-indent:30rpx;
+}
+.dizhi{
+  line-height:40rpx;
+  font-size:26rpx;
+  text-indent:30rpx;
+}
+.tel{
+  line-height:40rpx;
+  font-size:26rpx;
+  text-indent:30rpx;
+  margin-bottom:20rpx;
+}
+.bottom_age{
+  width:94%;
+  height:77rpx;
+  margin-left:3%;
+  border-top:1px solid #ccc;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+.yuding{
+  width:33%;
+}
+.daohang{
+  width:30%;
+}
+.xiangqing{
+  width:30%;
+}

@@ -1,0 +1,51 @@
+<!--index.wxml-->
+<swiper autoplay="{{autoplay}}"  indicator-dots="{{indicatorDots}}" style="width:100%; height:450rpx;"> 
+    <block wx:for="{{imgs}}">
+      <swiper-item>
+          <image src="http://www.51yuban.cn/img/2_1.jpg" style="width:100%; height:450rpx;"></image>
+      </swiper-item>
+    </block>
+</swiper>
+
+<!--介绍-->
+<view class="jieshao">── ── 无忧语伴 ── ──</view>
+
+<!--语伴类-->
+<view class="allnames">
+    <view class="conimg" wx:for="{{allimg}}" catchtap='cellclick' data_id="{{item.id}}">
+        <image bindtap="list" data-catid="{{item.cat_id}}"  style="width:100%; height:285rpx;" src="http://www.51yuban.cn/img/2_1.jpg"></image>
+        <view class="aller">姓名</view>
+        <view class="aller" style="color:#8F8F8F; font-size:26rpx; width:94%; margin-bottom:15rpx; display:flex; flex-direction:row; justify-content:space-around;">
+                <view style="width:70%;">经验：3年</view>
+                <view bindtap="callme" data-name="{{allimgcon[0].goods_name}}" style="width:30%; background:#6EA468; color:#fff; text-align:center;border-radius:10rpx;">详情</view>
+        </view>
+    </view>
+</view>
+
+<view class="learn_more">
+    <view style="width:230rpx; height:80rpx; background:#83BE7B; border-radius:15rpx; line-height:80rpx;" bindtap="more">点击更多</view>
+</view>
+
+<!--环境介绍
+<view class="allimg" bindtap="showit">
+    环境展示
+</view>
+
+<view class="allimgs" bindtap="neishi">
+    美食分享
+</view>-->
+
+<!--地址-->
+<!--<view style="width:94%; margin-left:3%; border:1rpx solid #929292;margin-top:45rpx; margin-bottom:40rpx;">
+    <view style="font-family:微软雅黑; font-size:28rpx; width:90%; margin-left:5%; text-align:center; color:#505050;">
+        <text style="line-height:80rpx; font-size:30rpx; color:#3F3F3F;">hi小椒串串香</text>
+        <view style="line-height:50rpx; font-size:28rpx;">电话：{{namess.goods_name}}</view>
+        <view style="line-height:50rpx; font-size:28rpx; padding-bottom:20rpx;">地址：{{namess.goods_remark}}</view>
+    </view>
+</view>-->
+
+<!--底部-->
+<!--<view class="bottom_img">
+    <view style="width:49%; border-right:1rpx solid #fff; font-size:35rpx; text-align:center; line-height:100rpx;" bindtap="callme" data-names="{{namess.goods_name}}">一键拨打</view>
+    <view style="width:50%; font-size:35rpx; text-align:center; line-height:100rpx;" bindtap="markertap">一键导航</view>
+</view>-->
